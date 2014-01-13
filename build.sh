@@ -16,6 +16,9 @@ cd xPLLib
 echo "Compiling and installing xPLLib...."
 make
 sudo make install
+cd examples
+echo "Compiling xPLLib examples and xPL_Hub...."
+make
 
 cd ..
 

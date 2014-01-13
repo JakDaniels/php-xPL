@@ -27,7 +27,7 @@ Look for the 'xPL' module in the list and that there are no errors (missing symb
 The build script does the following things:
 
 	1) Downloads the xPL library (first time) from http://xpl4java.org/xPL4Linux/
-	2) Builds and Installs the xPL library
+	2) Builds and Installs the xPL library, and makes the examples and the xPL-Hub (in xPLLib/examples)
 	3) Creates an interface file for SWIG using the xPL library header files
 	4) Uses SWIG to create the PHP module source code and include files
 	5) Builds the PHP module source and then installs the shared module library (using sudo)

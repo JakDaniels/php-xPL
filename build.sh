@@ -20,7 +20,7 @@ cd examples
 echo "Compiling xPLLib examples and xPL_Hub...."
 make
 
-cd ..
+cd ../..
 
 echo "Fixing up header files for SWIG...."
 cat xPLLib/xPL.h |grep -v "xPL_setTimelyHeartbeats()" >xPL.h

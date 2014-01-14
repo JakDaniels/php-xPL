@@ -1,0 +1,10 @@
+xPLLib/
+xPLLib.tgz
+php_xPL.h
+xPL.h
+xPL.ini
+xPL.php
+xPL_priv.h
+xPL.so
+xPL_wrap.c
+xPL_wrap.o

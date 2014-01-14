@@ -14,6 +14,9 @@ fi
 
 cd xPLLib
 echo "Compiling and installing xPLLib...."
+[ ! -f Makefile.old ] && mv Makefile Makefile.old
+cat Makefile.old |sed -e "s%CCOPTS = -O2 -DLINUX -pedantic -Wall -g%CCOPTS = -O2 -DLINUX -pedantic -Wall -fno-stack-protector -g%g" >Makefile
+
 make
 sudo make install
 cd examples
